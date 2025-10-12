@@ -3,7 +3,7 @@
 export type Priority = "low" | "medium" | "high";
 
 export type Task = {
-  id?: number;
+  id?: string;
   title: string;
   description?: string; // Corrigé : description
   isCompleted: boolean;

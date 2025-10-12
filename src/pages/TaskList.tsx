@@ -1,6 +1,5 @@
 import { mockTasks } from "../shared/mockTasks";
 import type { Task } from "../type/taskType";
-
 import TaskItems from "../components/tasks/TaskItems";
 
 export const TaskList = () => {
