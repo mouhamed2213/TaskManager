@@ -4,8 +4,8 @@ import AddTask from "../pages/AddTask";
 const Nav = () => {
   return (
     <>
-      <div className="w-full bg-blue-500 p-8">
-        <nav className="flex justify-center gap-20">
+      <div className="w-full bg-blue-500 p-3">
+        <nav className="flex justify-center gap-15">
           <Link
             to="/"
             className="text-center font-medium bg-white p-2 w-25 rounded-sm hover:bg-blue-800 hover:text-white "
